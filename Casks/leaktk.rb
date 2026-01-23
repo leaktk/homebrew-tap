@@ -18,12 +18,12 @@ cask "leaktk" do
     on_intel do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-darwin-x86_64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "fc3fbea8f9ebfbb2b89d136600018a28ef6858e8f68759441540143748533902"
+      sha256 "66c98958d295a05b559f39e624e4bd111fbf35fbca87596034773512ec440243"
     end
     on_arm do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-darwin-arm64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "f3606ec8e775a0a4eb8d4a5489a70c78696fe8bacf553e4f275a4901e650bca1"
+      sha256 "1283807083d056c97b2aeb6fd036a6698adf19ee3414b8b26cc4ccbc05e0069f"
     end
   end
 
@@ -31,12 +31,12 @@ cask "leaktk" do
     on_intel do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-linux-x86_64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "21074b55713b59a1fde63b4e8b8301b00407780304b42bf9f2e397d3a307ac47"
+      sha256 "bcacdb854cc916c2af7128a349a93f1ba5ff8404e1d3f88245cf46ff0d6428e5"
     end
     on_arm do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-linux-arm64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "24e21c79e404476c36b26e933b91e6b134d8294443950aa2c8a48dfdd515ae25"
+      sha256 "c883c9c8d685132885c83429b0937fe941465bbb8b8b446b22cc7ec663a46cd3"
     end
   end
 
