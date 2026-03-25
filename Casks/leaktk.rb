@@ -3,7 +3,7 @@ cask "leaktk" do
   name "leaktk"
   desc "A growing toolkit of utilities for leak detection, mitigation and prevention."
   homepage "https://github.com/leaktk/leaktk"
-  version "0.2.8"
+  version "0.2.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,12 +18,12 @@ cask "leaktk" do
     on_intel do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-darwin-x86_64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "66c98958d295a05b559f39e624e4bd111fbf35fbca87596034773512ec440243"
+      sha256 "8002b4b2f6887aa2ea31df724745b6be5c61cfbf816ef451f2de4c2de426becc"
     end
     on_arm do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-darwin-arm64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "1283807083d056c97b2aeb6fd036a6698adf19ee3414b8b26cc4ccbc05e0069f"
+      sha256 "858e9ab61da5a01ab56918d793970a044ced445e50f9e379933906055635158b"
     end
   end
 
@@ -31,12 +31,12 @@ cask "leaktk" do
     on_intel do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-linux-x86_64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "bcacdb854cc916c2af7128a349a93f1ba5ff8404e1d3f88245cf46ff0d6428e5"
+      sha256 "f459d9c62836c3544c7a5b5429223bd84ae1b91d85a68664999f102963ec48f7"
     end
     on_arm do
       url "https://github.com/leaktk/leaktk/releases/download/v#{version}/leaktk-#{version}-linux-arm64.tar.xz",
         verified: "github.com/leaktk/leaktk"
-      sha256 "c883c9c8d685132885c83429b0937fe941465bbb8b8b446b22cc7ec663a46cd3"
+      sha256 "11e1a751bec88b0e1590a47165cbd4ce109ef5fe2d83b1378df920b102379427"
     end
   end
 
