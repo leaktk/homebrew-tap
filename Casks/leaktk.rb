@@ -36,9 +36,9 @@ cask "leaktk" do
   fish_completion "completions/fish/leaktk.fish"
   zsh_completion "completions/zsh/_leaktk"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/leaktk"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/leaktk"]
     end
   end
 
